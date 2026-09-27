@@ -2,8 +2,8 @@ name: Build Habitica
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 3 * * 0"
+  # schedule:
+  #   - cron: "0 3 * * 0"
 
 env:
   IMAGE_NAME: ghcr.io/leanderziehm/upstream-habitica
